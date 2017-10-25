@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.imran.yikes.userhome">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3">
+
+
+
+    </ScrollView>
+
+    <Spinner
+        android:id="@+id/spinner12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+    <EditText
+        android:id="@+id/desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Enter Description"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/usercn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="contact number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/userlm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/usercn"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Landmark"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/userbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userlm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="submit"
+        android:textColor="#ffffff"
+        android:background="@drawable/background_signup"/>
+
+</RelativeLayout>
